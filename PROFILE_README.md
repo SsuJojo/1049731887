@@ -2,48 +2,57 @@
 
 # SsuJo_
 
-**I build small systems that turn annoying workflows into usable tools.**
+**把麻烦的流程，做成真正能用的工具。**  
+**I turn annoying workflows into usable tools.**
 
-AI agents · automation · developer tools · full-stack prototypes
+AI Agents · Automation · Developer Tools · Full-stack Prototypes
 
-[Personal Site](https://me.zszs.uno) · [GitHub Projects](https://github.com/SsuJojo?tab=repositories)
+[个人主页 / Personal Site](https://me.zszs.uno) · [GitHub Projects](https://github.com/SsuJojo?tab=repositories)
 
 </div>
 
-## 👋 About me
+## 👋 关于我 / About me
 
-I'm **SsuJo_** (`@SsuJojo`). I like taking ideas that are usually left as scripts, prompts or manual workflows and pushing them one step further into things that can actually be used and demonstrated.
+我是 **SsuJo_**（`@SsuJojo`）。我喜欢把原本停留在脚本、提示词或手工操作阶段的想法，继续往前推进，做成能跑、能演示、能真正解决问题的工具。
 
-My recent projects mostly sit around:
+I'm **SsuJo_** (`@SsuJojo`). I like taking ideas that would otherwise stay as scripts, prompts, or manual workflows and pushing them one step further into things that can actually run, be demonstrated, and solve real problems.
 
-- **AI & agents** — turning LLMs into task-oriented tools instead of isolated chat demos
-- **Automation** — removing repetitive steps from desktop, web and personal workflows
-- **Developer tooling** — small utilities that solve very specific friction points
-- **Full-stack prototypes** — building the complete path from UI to backend, storage and deployment
+目前主要关注：
 
-I also keep some older experiments public. They are intentionally labelled as **Legacy** or **Prototype** instead of being presented as production software.
+- **AI / Agent** — 让大模型调用工具、维护状态并完成真实任务
+- **自动化 / Automation** — 消除桌面、网页和个人工作流里的重复操作
+- **开发者工具 / Developer Tools** — 解决具体摩擦点的小工具与集成
+- **全栈原型 / Full-stack Prototypes** — 从 UI、后端、数据到部署完整跑通核心链路
 
-## 🚀 Selected projects
+Some older experiments are intentionally kept public and labelled as **Legacy**, **Prototype**, or **Archive** instead of being presented as production-ready software.
+
+## 🚀 代表项目 / Selected projects
 
 ### [AI Interview](https://github.com/SsuJojo/AI-Interview-Release)
 
-An AI interview simulation product with an online demo and desktop releases. It covers resume analysis, job matching, interview practice, feedback and review across Web, desktop and mobile usage.
+AI 模拟面试平台，包含简历分析、岗位匹配、模拟问答、反馈复盘，并提供在线 Demo 与桌面端 Release。
+
+AI interview simulation product covering resume analysis, job matching, interview practice, feedback, and review, with an online demo and desktop releases.
 
 **Demo:** https://aiiv.zszs.uno
 
 ---
 
-### [claude-watch](https://github.com/SsuJojo/claude-watch)
+### [JZHW Canteen](https://github.com/SsuJojo/JZHW_Canteen)
 
-A Windows sidecar for an already-running Claude Code session. It detects usage-limit resets and continues the same session without restarting Claude Code or losing context.
+校园食堂 Web 产品，包含菜单、点赞排行、预约、推荐、后台管理与内容审核等完整业务链路。
 
-`Node.js` · `Windows` · `CLI` · `Automation`
+A full-stack campus canteen product with menus, rankings, reservations, recommendations, staff administration, and moderation workflows.
+
+`Next.js` · `React` · `PostgreSQL` · `Full-stack`
 
 ---
 
 ### [web-inputer](https://github.com/SsuJojo/web-inputer)
 
-Use a phone browser as a remote keyboard / text / clipboard / mouse input surface for a Windows machine, with FastAPI, WebSocket authentication, reconnect logic and Cloudflare Tunnel deployment support.
+把手机浏览器变成 Windows 电脑的远程键盘、文本、剪贴板和鼠标输入面板，包含 WebSocket 鉴权、重连、控制锁与 Cloudflare Tunnel 部署。
+
+Turns a phone browser into a remote keyboard, text, clipboard, and mouse surface for Windows, with authenticated WebSockets, reconnect logic, control locking, and Cloudflare Tunnel deployment.
 
 `Python` · `FastAPI` · `WebSocket` · `Vue` · `Windows`
 
@@ -51,7 +60,9 @@ Use a phone browser as a remote keyboard / text / clipboard / mouse input surfac
 
 ### [Roco Market Watcher](https://github.com/SsuJojo/Roco-Market-Watcher)
 
-A backend monitoring pipeline that fetches web content, structures it with an LLM, matches configured rules and triggers notifications.
+网页监控后端：抓取内容 → LLM 结构化解析 → 规则匹配 → 触发通知。
+
+A backend monitoring pipeline: fetch web content → structure it with an LLM → match rules → trigger notifications.
 
 `Python` · `FastAPI` · `LLM` · `Automation`
 
@@ -59,44 +70,53 @@ A backend monitoring pipeline that fetches web content, structures it with an LL
 
 ### [MirrorSelf](https://github.com/SsuJojo/MirrorSelf)
 
-A small, personal full-stack product prototype built around sharing / submitting meal ideas and takeaway links, with a Vue frontend, Go API and PocketBase persistence.
+围绕餐食 / 外卖分享场景做的轻量全栈产品原型，包含 Vue 前端、Go API、PocketBase 持久化与 Docker 部署。
+
+A lightweight full-stack product prototype for sharing meal ideas and takeaway links, built with Vue, Go, PocketBase, and Docker.
 
 `Vue` · `Go` · `Fiber` · `PocketBase` · `Docker`
 
 ---
 
-### [Tapple](https://github.com/SsuJojo/tapple)
+### [everything-skill](https://github.com/SsuJojo/everything-skill)
 
-An early scroll-driven animation experiment inspired by Apple-style storytelling pages. It maps viewport position into CSS custom properties for gradients, motion, highlighting and scale effects.
+把 Voidtools Everything 的整机文件搜索能力封装成 Agent Skill，让 AI 可以调用真实的本机文件检索能力。
 
-`JavaScript` · `CSS` · `Scroll Animation` · `Legacy`
+Exposes Voidtools Everything as an agent skill so AI systems can perform real whole-machine file search on Windows.
 
-## 🧩 Small tools & agent skills
+`Agent Skill` · `Windows` · `Automation`
 
-- [everything-skill](https://github.com/SsuJojo/everything-skill) — expose Voidtools Everything as an agent skill for whole-machine file search on Windows
-- [microsoft-to-do-skill](https://github.com/SsuJojo/microsoft-to-do-skill) — natural-language Microsoft To Do operations through an agent skill
-- [Python Words](https://github.com/SsuJojo/-python-words-) — an early CLI vocabulary-learning project with study progress and retry loops
+## 🧩 其他工具 / More tools
 
-## 🧪 How I treat projects
+- [microsoft-to-do-skill](https://github.com/SsuJojo/microsoft-to-do-skill) — 用自然语言操作 Microsoft To Do / Natural-language Microsoft To Do operations
+- [xuezhewang-skill](https://github.com/SsuJojo/xuezhewang-skill) — 课程、作业、附件与提交工作流的 Agent Skill / Agent skill for course and assignment workflows
+- [Tapple](https://github.com/SsuJojo/tapple) — Apple 风格滚动动画的早期前端实验 / Legacy scroll-driven frontend animation experiment
+- [Python Words](https://github.com/SsuJojo/-python-words-) — 早期 CLI 背单词项目 / Early CLI vocabulary-learning project
 
-I use a fairly practical definition of “done”:
+## 🧪 我怎么定义“完成” / What “done” means to me
 
-> If the core path works and I can demonstrate the idea end-to-end, it's a completed first version.
+> **核心链路跑通，而且能够端到端演示，就算完成了第一版。**  
+> **If the core path works and the idea can be demonstrated end-to-end, the first version is done.**
 
-That means some repositories are polished products, some are MVPs, and some are preserved experiments. I try to make that status explicit in each README instead of pretending every repository is production-ready.
+因此这里既有完整产品，也有 MVP、原型和被保留下来的历史实验。我更愿意明确写清项目状态，而不是把所有仓库都包装成“生产级”。
 
-## 🛠️ Things I use often
+Some repositories are polished products, some are MVPs, and some are preserved experiments. I prefer making that status explicit instead of pretending every repository is production-ready.
 
-`Python` · `TypeScript / JavaScript` · `Vue` · `Go` · `FastAPI` · `Node.js` · `Docker` · `WebSocket` · `MCP` · `LLM APIs`
+## 🛠️ 常用技术 / Things I use often
 
-## 🌱 Current direction
+`Python` · `TypeScript / JavaScript` · `Vue` · `React` · `Go` · `FastAPI` · `Node.js` · `PostgreSQL` · `Docker` · `WebSocket` · `MCP` · `LLM APIs`
 
-I'm especially interested in systems where AI is only one component of a larger product: agents that can call tools, interact with real software, maintain state, automate workflows and still have clear safety / execution boundaries.
+## 🌱 当前方向 / Current direction
+
+我现在尤其关注 **“AI 只是系统中的一个组件”** 这一类产品：Agent 能调用工具、操作真实软件、维护状态、自动化工作流，同时仍然保留清晰的执行边界和安全控制。
+
+I'm especially interested in systems where AI is only one component of a larger product: agents that can call tools, interact with real software, maintain state, automate workflows, and still keep clear execution and safety boundaries.
 
 ---
 
 <div align="center">
 
+**先把 Demo 跑起来，让核心链路工作，再继续变好。**  
 **Build the demo. Make the core loop work. Then improve it.**
 
 </div>
